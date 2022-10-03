@@ -1,0 +1,66 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    
+}
+
+.bounding_box {
+    position: relative;
+    width: 310px;
+    height: 520px;
+    background: lightgrey;
+    margin: 50px;
+    display: inline-block;
+}
+
+.bounding_box:hover{
+    width: 500px;
+}
+
+.bounding_box_large{
+    position: relative;
+    width: 524px;
+    height: 520px;
+    background: white;
+    margin: 50px;
+    display: inline-block
+}
+
+.bounding_box_large:hover{
+    width: 320px;
+    background: red;
+}
+
+.segment_solid {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: black;
+    margin: 0px;
+    
+}
+
+.segment_blank {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: lightgrey;
+    margin: 0px;
+}
+
+.segment_round_half {
+    width: 50px;
+    height: 100px;
+    display: inline-block;
+    background: lightgrey;
+    margin: 0px;
+}
+
+.segment_blank_half {
+    width: 50px;
+    height: 100px;
+    display: inline-block;
+    background: black;
+    margin: 0px;
+}
+   
